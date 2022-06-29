@@ -57,14 +57,12 @@ section > div {
 section > div:first-child {
   margin-top: 0;
 }
-section .inner {
-}
 section .inner h3 {
   font-size: 22px;
   font-weight: 500;
   padding-bottom: 24px;
 }
-section .inner p {
+section p {
   color: #5d5d5d;
 }
 section .inner img {
@@ -92,13 +90,58 @@ section .inner img {
   border: 1px solid #d1d1d1;
   border-radius: 20px;
 }
+.con3 .inner {
+  position: relative;
+}
+.con3 img.gra {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 .con4 {
+  transition: 0.3s;
   background-color: #559cde;
   color: #fff;
 }
 .con4 p {
-  color: #fff !important;
+  color: #fff;
+}
+.con4 .inner {
+  overflow: hidden;
+}
+.con4 img {
+  position: relative;
+  top: 50px;
+}
+.con4.bgdark {
+  background-color: #305273;
 }
 .con6 {
   background-color: #f7f7f7;
+}
+.con5 .more2 {
+  border: 1px solid #eaeaea;
+  padding: 14px 18px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.con6 hr {
+  margin: auto;
+  width: 68px;
+}
+.con6 ul li {
+  padding: 25px 0 50px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.con6 ul li:last-child {
+  border: none;
+}
+.con6 ul li img {
+  width: 96px;
+}
+.con6 ul li h4 {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 22px 0 12px 0;
 }
