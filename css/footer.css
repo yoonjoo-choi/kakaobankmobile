@@ -6,6 +6,8 @@ footer {
 }
 footer ul {
   display: flex;
+  flex-wrap: wrap;
+  padding-top: 4px;
   padding-bottom: 17px;
 }
 footer ul li {
