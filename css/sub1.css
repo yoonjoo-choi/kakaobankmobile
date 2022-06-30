@@ -1,7 +1,5 @@
-section {
-}
 section h2 {
-  font-size: 16px;
+  font-size: 18px;
   border-bottom: 1px solid #eaeaea;
   padding: 10px 0;
   margin: 0 16px;
@@ -22,22 +20,40 @@ section .con1 .slide {
   height: 146px;
   overflow: hidden;
   position: relative;
+  background-color: #000;
 }
 section .con1 .slide ul {
+  display: flex;
+  width: 400%;
+  position: relative;
 }
 section .con1 .slide ul li {
+  position: relative;
 }
-section .con1 .slide ul li {
-}
-section .con1 .slide ul li img {
+section .con1 .slide ul li p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  color: #fff;
 }
 section .con1 .slide ul li .message {
+  top: 30px;
 }
 section .con1 .slide ul li .message span {
+  font-size: 3em;
+  display: block;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgb(104, 104, 104);
 }
 section .con1 .slide ul li .pages {
+  top: 112px;
+  font-size: 12px;
+  text-align: right;
 }
 section .con1 .slide ul li .pages span {
+  font-size: 18px;
 }
 section .con1 .slide .btns {
   position: absolute;
@@ -56,4 +72,98 @@ section .con1 .slide .btns .btn_next {
   background-position: -53px -113px;
   width: 25px;
   height: 48px;
+}
+.center {
+  text-align: center;
+}
+.con2 h3,
+.con3 h3 {
+  padding-top: 24px;
+  padding-left: 0;
+}
+.con2 h3::after,
+.con3 h3::after {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #4d4d4d;
+  margin: 10px auto;
+}
+.con2 .swiper {
+  margin-left: 20px;
+}
+.con2 .swiper img {
+  width: 100%;
+}
+.con2 h4 {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 4px 0;
+}
+.con2 p {
+  padding-bottom: 40px;
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: #000;
+}
+.con3 {
+  background-color: #fafafa;
+  margin-top: 24px;
+  padding-bottom: 40px;
+}
+
+.con3 .symbol {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.con3 .tit {
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.con4 {
+  background-color: #f0f0f0;
+  padding-bottom: 16px;
+  padding-top: 20px;
+}
+.con4 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con4 ul li {
+  padding: 0 16px;
+  position: relative;
+}
+.con4 ul li::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 14px;
+  background-color: #ddd;
+  position: absolute;
+  top: 4px;
+  left: 0;
+}
+.con4 ul li:first-child::after {
+  display: none;
+}
+.con4 ul li a {
+  width: 15px;
+  height: 23px;
+  background-position-y: -138px;
+}
+.con4 ul li a.fa {
+}
+.con4 ul li a.bl {
+  background-position-x: -15px;
+}
+.con4 ul li a.na {
+  background-position-x: -116px;
+}
+.con4 ul li a.yo {
+  width: 22px;
+  background-position-x: -30px;
 }

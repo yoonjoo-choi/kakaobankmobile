@@ -16,6 +16,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/sub1.js"></script>
   </head>
   <body>
     <div id="wrap">
@@ -91,7 +92,7 @@
           </div>
         </div>
 
-        <div class="con2">
+        <div class="con2 center">
           <h3>브랜드 영상</h3>
           <div class="swiper">
             <div class="swiper-wrapper">
@@ -152,7 +153,7 @@
           </div>
         </div>
 
-        <div class="con3">
+        <div class="con3 center">
           <h3>BI소개</h3>
           <div class="symbol">
             <img src="images/bi1.png" alt="심볼" />
@@ -170,22 +171,20 @@
           <h3 class="blind">SNS</h3>
           <ul>
             <li>
-              <a href="#"><span class="blind">페이스북</span></a>
+              <a href="#" class="bgico fa"><span class="blind">페이스북</span></a>
             </li>
             <li>
-              <a href="#"><span class="blind">블로그</span></a>
+              <a href="#" class="bgico bl"><span class="blind">블로그</span></a>
             </li>
             <li>
-              <a href="#"><span class="blind">네이버</span></a>
+              <a href="#" class="bgico na"><span class="blind">네이버</span></a>
             </li>
             <li>
-              <a href="#"><span class="blind">유튜브</span></a>
+              <a href="#" class="bgico yo"><span class="blind">유튜브</span></a>
             </li>
           </ul>
         </div>
       </section>
-
-      <button class="btn_top"><span class="blind">맨위로 올라가기</span></button>
 
       <footer>
         <ul>
@@ -203,9 +202,9 @@
     </div>
 
     <script>
-      var swiper = new Swiper(".swiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
+      let swiper = new Swiper(".swiper", {
+        slidesPerView: 2.5,
+        spaceBetween: 8,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
