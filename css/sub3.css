@@ -1,0 +1,107 @@
+section h2 {
+  font-size: 18px;
+  padding: 20px 18px;
+}
+section form {
+  border-bottom: 1px solid #f3f3f3;
+  position: relative;
+}
+section form input {
+  padding: 20px 20px 20px 46px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+section form .i_search {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  background-position: -40px -40px;
+}
+
+section .all > li {
+  border-bottom: 1px solid #f3f3f3;
+}
+section .all > li > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+}
+section .all > li > a.active .i_arrow {
+  display: none;
+}
+section .all > li > a .i_arrow {
+  display: block;
+  width: 12px;
+  height: 16px;
+  background-position: -104px -19px;
+}
+
+section .all .qna {
+  display: none;
+}
+section .all .qna li a {
+  padding: 22px;
+}
+section .all .qna li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .all .qna li a span span.q {
+  padding-right: 10px;
+  color: #ff6347;
+}
+
+section .all .qna li a .i_arrow_down {
+  display: block;
+  width: 14px;
+  height: 8px;
+  background-position: -108px -40px;
+}
+section .all .qna li a.active .i_arrow_down {
+  transform: rotate(180deg);
+}
+section .all .qna li .answer {
+  color: #393939;
+  padding: 22px;
+  display: none;
+  background-color: #f7f7f7;
+}
+section .all .qna li .answer p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+section .all .qna li .answer p strong {
+  font-weight: bold;
+}
+section .all .qna li:last-child {
+  padding: 22px;
+}
+section .all .qna li .btn_more {
+  width: 100%;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 15px 0;
+}
+
+section .custom {
+  text-align: center;
+  padding: 20px;
+}
+section .custom a {
+  text-decoration: underline;
+  padding: 18px;
+}
+section .custom a .i_tell {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-position: -18px -38px;
+  position: relative;
+  top: 4px;
+}
